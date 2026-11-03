@@ -1,0 +1,154 @@
+    1  ssh-keygen
+    2  atp install github
+    3  history
+    4  apt install github
+    5  sudo apt install github
+    6  sudo apt install git
+    7  $home
+    8  cd /home
+    9  cd
+   10  sudo apt update
+   11  sudo apt install git -y
+   12  cat $home/ .ssh/*.pub
+   13  cat $home/.ssh/*.pub
+   14  cat $HOME/.ssh/*.pub
+   15  cat /home
+   16  sudo apt install -y gh
+   17  gh
+   18  open gh
+   19  bash gh
+   20  gh --version
+   21  gh autoh login
+   22  gh auth login
+   23  whoami
+   24  echo $HOME
+   25  ls -la $HOME/.ssh/
+   26  hostname
+   27  cd
+   28  cat $HOME/.ssh/*.pub
+   29  cat
+   30  ls -l /home/mati
+   31  ls /home/mati
+   32  ls -l /home/mati/descargas
+   33  ls -l /home/mati/Descargas
+   34  mkdir repogit
+   35  cd repogit
+   36  git clone git@github.com:BMatiasEduardo/TP_AySO.git
+   37  sudo git clone git@github.com:BMatiasEduardo/TP_AySO.git
+   38  whoami; echo $HOME; ls -la $HOME/.ssh/; ssh -T git@github.com
+   39  cat $HOME/home/.ssh/id_ed25519.pub
+   40  cat $HOME/mati/.ssh/id_ed25519.pub
+   41  ssh-keygen
+   42  cd
+   43  mkdir regit
+   44  mkdirrepogit
+   45  cd
+   46  bash history
+   47  .bash history
+   48  ls -la ~/.ssh/
+   49  cat ~/.ssh/id_ed25519.pub
+   50  ssh -T git@github.com
+   51  cd ~/repogit/TP_AySO
+   52  pwd
+   53  echo "Usuario=$(whoami)" > datos_usuario.txt
+   54  echo "Usuario=$(whoami)">datos_usuario.txt
+   55  car datos_usuario.txt
+   56  cat datos_usuario.txt
+   57  grep HOME_URL /etc/os-release
+   58  grep home_url /etc/os-release
+   59  grep -i home_url /etc/os-release
+   60  grep "model name" /proc/cpuinfo | head -n1 >> datos_usuario.txt 
+   61  cat datos_usuario.txt
+   62  cat <<EOF >> README.md
+   63  Alumno: Matias Benitez
+   64  Division: 311
+   65  Turno: Noche 
+   66  EOF
+   67  history -a
+   68  cp ~/.bash_history ./Historial_comandos_Matias.txt
+   69  git add . 
+   70  git add .
+   71  git add -A
+   72  git add datos_usuario.txt
+   73  git add *.md
+   74  git status
+   75  ssh -T git@github.com
+   76  git log --oneline
+   77  git status
+   78  pwd
+   79  git config --global user.name "Matias Benitez"
+   80  git config --global user.email "matiasbenitez2001@gmail.com"
+   81  cd ~/repogit/TP_AySO
+   82  git add.
+   83  git add .
+   84  git status
+   85  cd ~/repogit/TP_AySO
+   86  git add .
+   87  git status
+   88  pwd
+   89  mv ~/TP_AySO/datos_usuario.txt ~/TP_AySO/README.md ~/TP_AySO/Historial_comandos_Matias.txt ~/repogit/TP_AySO/
+   90  pwd
+   91  ls -la
+   92  git config --global user.name "Matias Benitez"
+   93  git config --global user.email "matiasbenitez2001@gmail.com"
+   94  git add .
+   95  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+   96  git push
+   97  vmpoweroff
+   98  sudo poweroff
+   99  lsblk
+  100  fdisk /def/vdb
+  101  sudo fdisk /def/vdb
+  102  p
+  103  sudo fdik /def/vdc
+  104  sudo disk /def/vdd
+  105  sudo fdisk /dev/vdb
+  106  lsblk
+  107  grep
+  108  help
+  109  lblsk
+  110  lsblk
+  111  sudo fdisk /dev/vdc
+  112  lblsk
+  113  lsblk
+  114  sudo fdisk /dev/vdd
+  115  sudo pvs
+  116  sudo fdisk -1 /dev/vdb
+  117  sudo fdisk -l /dev/vdb
+  118  sudo fdiks -l /dev/vdd
+  119  lsblk
+  120  sudo fdisk -l /Dev/vdd
+  121  sudo fdisk -l /dev/vdd
+  122  sudo fdisk -l /dev/vdc
+  123  sudo pvs /dev/vdb1
+  124  lsblk -f
+  125  sudo pvcreate /Dev/vdb1 /dev/vdc1 /dev/vdd1
+  126  sudo pvs
+  127  sudo pvcreate /dev/vdb1 /dev/vdc1 /dev/vdd1
+  128  sudo pvcreate /dev/vdb1
+  129  sudo pvs 
+  130  sudo apt install lvm2
+  131  sudo pvcreate /de
+  132  lsblk
+  133  sudo pvcreate /dev/vdb1 /dev/cdv1 /dev/vdd1
+  134  sudo pvcreate /dev/vdb1
+  135  sudo pvcreate /dev/vdc1
+  136  sudo pvcreate /dev/vdd1
+  137  sudo pvs
+  138  sudo vgcreate vg_datos /dev/vdb1 /dev/vdc1 /dev/vdd1
+  139  sudo vgs
+  140  sudo vgrename vg_datos datos
+  141  sudo vgs
+  142  sudo lvcreate -L 1G -n www datos
+  143  sudo lvcreate -L 4G -n salvas datos
+  144  sudo lvs
+  145  sudo mkfs.ext4 /dev/datos/www
+  146  sudo mkfs.ext4 /dev/datos/salvas
+  147  sudo mkdir /mnt/www /mnt/salvas
+  148  sudo mount /dev/datos/www /mnt/www
+  149  sudo mount /dev/datos/salvas /mnt/salvas
+  150  df -h
+  151  sudo lvextend -L 2G /dev/datos/www
+  152  sudo resize2fs /dev/datos/www
+  153  df -h
+  154  history > history.txt
